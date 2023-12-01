@@ -1,0 +1,7 @@
+SELECT 
+clube AS 'CLUBE', 
+cartao AS 'TIPO DE CARTAO',
+COUNT(cartao) AS 'QUANTIDADE DE CARTOES'
+FROM cartoes
+GROUP BY clube, cartao
+ORDER BY 1,2,3 DESC
