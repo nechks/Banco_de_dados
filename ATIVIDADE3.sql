@@ -14,3 +14,7 @@ FROM gols
 /*WHERE vencedor <> '-'*/
 GROUP BY atleta
 ORDER BY 2 DESC
+
+Quais times tiveram mais gols? flamego e Palmeiras
+
+Quem foram os maiores artilheiros de todas as partidas registradas nos dados ?  Gabriel Barbosa e Diego Souza
